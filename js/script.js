@@ -8,7 +8,7 @@ let market = [];
 
 
 
-elSendBtn.addEventListener("submit", function(e){
+elSendBtn.addEventListener("click", function(e){
   e.preventDefault();
 
   let products = elInput.value.trim();
